@@ -8,9 +8,9 @@
 }
 
 :root {
-    --primary-color: #1e4d7b;
-    --secondary-color: #2c7bb6;
-    --accent-color: #4a9fd8;
+    --primary-color: #3d5a80;
+    --secondary-color: #5585b5;
+    --accent-color: #7ba8d1;
     --text-dark: #2c3e50;
     --text-light: #6c757d;
     --border-color: #e1e8ed;
@@ -93,12 +93,12 @@ body::before {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, rgba(30, 77, 123, 0.92) 0%, rgba(44, 123, 182, 0.88) 100%), 
+    background: linear-gradient(135deg, rgba(30, 77, 123, 0.75) 0%, rgba(44, 123, 182, 0.70) 100%), 
                 url('chicago-skyline.jpg') center center;
     background-size: cover;
     background-attachment: fixed;
     color: var(--white);
-    padding: 120px 20px;
+    padding: 60px 20px;
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -108,7 +108,7 @@ body::before {
     content: "🦷";
     position: absolute;
     font-size: 15rem;
-    opacity: 0.03;
+    opacity: 0.02;
     top: -50px;
     right: 10%;
     transform: rotate(-15deg);
@@ -119,7 +119,7 @@ body::before {
     content: "🦷";
     position: absolute;
     font-size: 12rem;
-    opacity: 0.03;
+    opacity: 0.02;
     bottom: -40px;
     left: 5%;
     transform: rotate(25deg);
@@ -133,20 +133,20 @@ body::before {
 }
 
 .hero-content h1 {
-    font-size: 3rem;
-    margin-bottom: 1rem;
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
     font-weight: 700;
 }
 
 .subtitle {
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
     font-weight: 300;
 }
 
 .tagline {
-    font-size: 1.1rem;
-    margin-bottom: 2rem;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
     opacity: 0.95;
 }
 
@@ -169,36 +169,36 @@ body::before {
 
 /* Intro Section */
 .intro {
-    padding: 80px 20px;
+    padding: 40px 20px;
     background-color: var(--white);
 }
 
 .intro h2 {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: var(--primary-color);
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .lead {
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: var(--text-light);
     max-width: 900px;
-    margin: 0 auto 3rem;
-    line-height: 1.8;
+    margin: 0 auto 2rem;
+    line-height: 1.7;
 }
 
 .values-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
-    margin-top: 3rem;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
 }
 
 .value-card {
     background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
-    padding: 2.5rem;
+    padding: 1.5rem;
     border-radius: 10px;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -229,10 +229,10 @@ body::before {
 }
 
 .icon {
-    font-size: 3.5rem;
-    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    margin-bottom: 0.8rem;
     display: inline-block;
-    padding: 1rem;
+    padding: 0.5rem;
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -242,8 +242,8 @@ body::before {
 
 .value-card h3 {
     color: var(--primary-color);
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    margin-bottom: 0.8rem;
 }
 
 .value-card p {
@@ -254,22 +254,22 @@ body::before {
 /* Who Should Join Section */
 .visual-banner {
     background: linear-gradient(135deg, #f0f7ff 0%, #e3f2fd 100%);
-    padding: 60px 20px;
+    padding: 30px 20px;
     border-top: 3px solid var(--accent-color);
     border-bottom: 3px solid var(--accent-color);
 }
 
 .stats-row {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 3rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
     max-width: 1000px;
     margin: 0 auto;
 }
 
 .stat-item {
     text-align: center;
-    padding: 2rem;
+    padding: 1.2rem;
     background: white;
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(30, 77, 123, 0.1);
@@ -281,41 +281,41 @@ body::before {
 }
 
 .stat-icon {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-}
-
-.stat-number {
     font-size: 2.5rem;
-    font-weight: 700;
-    color: var(--primary-color);
     margin-bottom: 0.5rem;
 }
 
+.stat-number {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 0.3rem;
+}
+
 .stat-label {
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: var(--text-light);
     font-weight: 500;
 }
 
 .who-should-join {
-    padding: 80px 20px;
+    padding: 40px 20px;
     background-color: var(--bg-light);
 }
 
 .who-should-join h2 {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: var(--primary-color);
-    margin-bottom: 1rem;
+    margin-bottom: 0.8rem;
 }
 
 .section-intro {
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: var(--text-light);
     max-width: 800px;
-    margin: 0 auto 3rem;
+    margin: 0 auto 2rem;
 }
 
 .audience-list {
@@ -325,10 +325,10 @@ body::before {
 
 .audience-item {
     display: flex;
-    gap: 1.5rem;
-    margin-bottom: 2rem;
+    gap: 1rem;
+    margin-bottom: 1.2rem;
     background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
-    padding: 2rem;
+    padding: 1.2rem;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.05);
     border-left: 4px solid var(--accent-color);
@@ -369,18 +369,18 @@ body::before {
 .cta-section {
     background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
     color: var(--white);
-    padding: 80px 20px;
+    padding: 40px 20px;
     text-align: center;
 }
 
 .cta-section h2 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
 }
 
 .cta-section p {
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
     opacity: 0.95;
 }
 
@@ -405,34 +405,34 @@ body::before {
 .page-header {
     background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
     color: var(--white);
-    padding: 60px 20px;
+    padding: 40px 20px;
     text-align: center;
 }
 
 .page-header h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 0.5rem;
 }
 
 .page-header p {
-    font-size: 1.1rem;
+    font-size: 1rem;
     opacity: 0.95;
 }
 
 /* Content Section */
 .content-section {
-    padding: 60px 20px;
+    padding: 40px 20px;
 }
 
 .content-block {
     max-width: 900px;
-    margin: 0 auto 3rem;
+    margin: 0 auto 2rem;
 }
 
 .content-block h2 {
     color: var(--primary-color);
-    font-size: 2rem;
-    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    margin-bottom: 0.8rem;
 }
 
 .content-block h3 {
@@ -560,12 +560,12 @@ body::before {
 .founder-profile {
     display: grid;
     grid-template-columns: 300px 1fr;
-    gap: 3rem;
-    margin-bottom: 4rem;
+    gap: 2rem;
+    margin-bottom: 3rem;
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    padding: 2rem;
+    padding: 1.5rem;
     background: linear-gradient(135deg, #ffffff 0%, #fafbfc 100%);
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.08);
@@ -644,15 +644,15 @@ body::before {
 }
 
 .bio p {
-    margin-bottom: 1rem;
-    line-height: 1.7;
+    margin-bottom: 0.8rem;
+    line-height: 1.6;
     color: var(--text-dark);
 }
 
 .divider {
     height: 1px;
     background-color: var(--border-color);
-    margin: 4rem auto;
+    margin: 2.5rem auto;
     max-width: 900px;
 }
 
@@ -842,52 +842,171 @@ footer p {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    .hero {
+        padding: 40px 15px;
+        background-attachment: scroll;
+    }
+    
     .hero-content h1 {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     
     .subtitle {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
+    }
+    
+    .tagline {
+        font-size: 0.95rem;
+    }
+    
+    .nav-container {
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+    }
+    
+    .logo {
+        font-size: 1.1rem;
+        margin-bottom: 10px;
     }
     
     .nav-menu {
-        gap: 1rem;
+        flex-direction: column;
+        gap: 0.5rem;
+        width: 100%;
+        text-align: center;
     }
     
     .values-grid {
         grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .value-card {
+        padding: 1.2rem;
+    }
+    
+    .intro, .who-should-join, .content-section, .cta-section {
+        padding: 30px 15px;
+    }
+    
+    .intro h2, .who-should-join h2 {
+        font-size: 1.6rem;
+    }
+    
+    .lead {
+        font-size: 1rem;
+    }
+    
+    .audience-item {
+        flex-direction: column;
+        gap: 0.8rem;
+        padding: 1rem;
+    }
+    
+    .check {
+        width: 30px;
+        height: 30px;
+        font-size: 1.5rem;
     }
     
     .founder-profile {
         grid-template-columns: 1fr;
-        gap: 2rem;
+        gap: 1.5rem;
+        padding: 1.5rem;
     }
     
+    .founder-image,
     .founder-image-placeholder {
+        width: 100%;
+        max-width: 300px;
         margin: 0 auto;
     }
     
     .two-column-join {
         grid-template-columns: 1fr;
-        gap: 3rem;
+        gap: 2rem;
     }
     
     .format-grid {
         grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .format-item {
+        padding: 1rem;
+    }
+    
+    .stats-row {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .stat-item {
+        padding: 1rem;
+    }
+    
+    .stat-icon {
+        font-size: 2rem;
+    }
+    
+    .stat-number {
+        font-size: 1.8rem;
+    }
+    
+    .page-header {
+        padding: 30px 15px;
+    }
+    
+    .page-header h1 {
+        font-size: 1.6rem;
+    }
+    
+    .contact-form {
+        padding: 1.5rem;
+    }
+    
+    .two-column {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
     }
 }
 
 @media (max-width: 480px) {
-    .nav-menu {
-        flex-direction: column;
-        gap: 0.5rem;
-    }
-    
-    .hero {
-        padding: 60px 20px;
-    }
-    
     .hero-content h1 {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
+    }
+    
+    .subtitle {
+        font-size: 1rem;
+    }
+    
+    .logo {
+        font-size: 1rem;
+    }
+    
+    .nav-menu {
+        font-size: 0.9rem;
+    }
+    
+    .cta-button, .cta-button-secondary {
+        padding: 12px 30px;
+        font-size: 1rem;
+    }
+    
+    .value-card h3 {
+        font-size: 1.2rem;
+    }
+    
+    .audience-item h4 {
+        font-size: 1.1rem;
+    }
+    
+    .founder-info h2 {
+        font-size: 1.6rem;
+    }
+    
+    .title {
+        font-size: 1.1rem;
     }
 }
