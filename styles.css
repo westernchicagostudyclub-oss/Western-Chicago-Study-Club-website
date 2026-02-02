@@ -93,9 +93,12 @@ body::before {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    background: linear-gradient(135deg, rgba(30, 77, 123, 0.92) 0%, rgba(44, 123, 182, 0.88) 100%), 
+                url('chicago-skyline.jpg') center center;
+    background-size: cover;
+    background-attachment: fixed;
     color: var(--white);
-    padding: 100px 20px;
+    padding: 120px 20px;
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -105,7 +108,7 @@ body::before {
     content: "🦷";
     position: absolute;
     font-size: 15rem;
-    opacity: 0.05;
+    opacity: 0.03;
     top: -50px;
     right: 10%;
     transform: rotate(-15deg);
@@ -116,7 +119,7 @@ body::before {
     content: "🦷";
     position: absolute;
     font-size: 12rem;
-    opacity: 0.05;
+    opacity: 0.03;
     bottom: -40px;
     left: 5%;
     transform: rotate(25deg);
@@ -578,6 +581,14 @@ body::before {
     height: 5px;
     background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
     border-radius: 15px 15px 0 0;
+}
+
+.founder-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
 }
 
 .founder-image-placeholder {
